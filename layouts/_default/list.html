@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="grid-four-col">
+    <div class="two-four padding-medium">
+        <h1>{{ .Title }}</h1>
+        {{ range .Pages }}
+        <article>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ with .Description }}
+            <p>{{ . }}</p>
+            {{ end }}
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }} 
