@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Tama Pugsley · Technical leadership · Nelson, Aotearoa New Zealand</title><link>https://tama.co.nz/blog/</link><description>Recent content in Blogs on Tama Pugsley · Technical leadership · Nelson, Aotearoa New Zealand</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tama.co.nz/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Blog Post</title><link>https://tama.co.nz/blog/first-post/</link><pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate><guid>https://tama.co.nz/blog/first-post/</guid><description>&lt;h2 id="welcome-to-my-blog">Welcome to my blog!&lt;/h2>
+&lt;p>This is my first blog post. Hugo makes it easy to create static websites with minimal configuration.&lt;/p>
+&lt;h3 id="some-features-of-hugo">Some features of Hugo:&lt;/h3>
+&lt;ol>
+&lt;li>Fast build times&lt;/li>
+&lt;li>Flexible content management&lt;/li>
+&lt;li>Simple templating&lt;/li>
+&lt;li>Easy to customize&lt;/li>
+&lt;/ol>
+&lt;p>Feel free to explore the site and check back for more content soon!&lt;/p></description></item></channel></rss>

@@ -1,0 +1,425 @@
+body {
+	background: #F9F8F6;
+	color: #111;
+	font-size: 18px;
+	line-height: 145%;
+	font-family: "sohne-book", helvetica, arial, sans-serif;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	margin: 0 0 3vw 0;
+}
+
+@font-face {
+  	font-family: 'sohne-book';
+  	src: url('../fonts/SohneWeb-Mager.woff2') format('woff2');
+}
+
+@font-face {
+  	font-family: 'sohne-bold';
+  	src: url('../fonts/SohneWeb-Halbfett.woff2') format('woff2');
+}
+
+@font-face {
+  	font-family: 'sohne-book-italic';
+  	src: url('../fonts/SohneWeb-MagerKursiv.woff2') format('woff2');
+}
+
+@font-face {
+  	font-family: 'tiempos-headline';
+  	src: url('../fonts/TiemposHeadWeb-Semibold.woff') format('woff');
+}
+
+/* text styles */
+h1 {
+	font-weight: normal;
+	font-size: 23px;
+	margin: 0 0 15% 0; 
+	font-family: sohne-bold;
+}
+
+h2 { 
+	font-family: sohne-bold;
+	font-size: 2.7vw;
+	line-height: 120%;
+	font-weight: normal;
+	margin: 0 0 4% 0;
+	padding: 0;
+ }
+
+h3 {
+ 	font-family: sohne-bold;
+ 	font-weight: normal;
+ }
+
+em {
+	font-family: sohne-book-italic;
+	font-style: normal;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #FF5353;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+p:first-child {
+	margin-top: 0;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+
+.smaller-text, .smaller-text > *, .photo-pages p.smaller-text {
+	font-size: 15px;
+}
+
+/*.work-text {
+	color: #fff;
+}
+
+.work-text a {
+	color: #ffffff;
+}
+
+.work-text p {
+	margin: 11px 0;
+}*/
+
+.work-text h3 {
+	margin: -7px 0px 0px 0px;
+}
+
+ /* text styles end */
+ img {
+ 	width: 100%;
+ 	border-radius: 8px;
+ }
+
+ .border-top {
+ 	border-top: 1px solid rgba(0, 0, 0, .05);
+ }
+
+ /* layout styles start */
+ .grid-wrapper {
+ 	width: 100%;
+ 	margin: auto;
+ }
+
+ .light-grey > *, .light-grey a, .light-grey, .photo-pages a.light-grey  {
+ 	color: #777;
+ }
+
+ .dark-grey > * {
+ 	color: #24231F;
+ }
+
+ .bottom-padding-large {
+ 	padding-bottom: 70px;
+ }
+
+ .black {
+ 	background: #000;
+ }
+
+ .white, .white a {
+ 	color: #fff;
+ }
+
+ .dark, .dark a {
+ 	color: #24231F;
+ }
+
+ .half-opacity {
+ 	opacity: 1;
+ }
+
+.grid-four-col {
+	display: grid;
+	grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
+    column-gap: 5%;
+    width: 100%;
+	max-width: 1340px;
+	margin: auto;
+}
+
+.one-two, .two-four, .four-five {
+	padding: 0;
+}
+
+.one-two.image {
+	margin-right: -2vw; 
+}
+
+.four-five.image {
+	margin-left: -2vw; 
+}
+
+.logo {
+	float: left;
+	padding: 27px 0 0 0;
+}
+
+.logo-starboard {
+	width: 170px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.one-two { grid-column: 1 / 2; }
+
+.one-five { grid-column: 1 / 5; }
+
+.two-three { grid-column: 2 / 3;}
+
+.two-four { grid-column: 2 / 4; }
+
+.three-four { grid-column: 3 / 4; }
+
+.four-five { grid-column: 4 / 5; }
+
+.padding-medium {
+	padding: 50px 0;
+}
+
+.top-padding-medium {
+	padding-top: 50px;
+}
+
+.top-padding-large {
+	padding-top: 140px;
+}
+
+.bottom-padding-medium {
+	padding-bottom: 50px;
+}
+
+.padding-small {
+	padding: 30px 0;
+}
+
+.top-padding-small {
+	padding-top: 30px;
+}
+
+.image {
+	padding: 0 0 57px 0; /* optically align it with text */
+}
+
+.image img {
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+}
+
+ /* layout styles end */
+}
+
+img {
+	border-radius: 3px;
+}
+
+
+/* photo pages styles */
+
+.vertical-fit {
+	margin: auto;
+}
+
+.map-wrapper {
+	height: 70vh;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	margin-top: 2vw;
+}
+
+.vertical-fit img, .map-wrapper script {
+	width: auto;
+    height: auto;
+	max-height: 90vh;
+	max-width: 90vw;
+	border-radius: 2px;
+}
+
+@font-face {
+  	font-family: 'heldane-italic';
+  	src: url('../fonts/HeldaneDisplayWeb-RegularItalic.woff2') format('woff2');
+}
+
+.heldane {
+	 font-family: 'heldane-italic';
+}
+
+.big-heldane {
+	font-family: heldane-italic;
+	font-size: 5vw;
+	line-height: 100%;
+}
+
+.header-nav ul {
+	column-count: 3;
+	line-height: 170%;
+}
+
+.header-nav li {
+	width: 33.3333%;
+}
+
+
+.photo-pages a {
+	text-decoration: none;
+	color: #777;
+}
+
+
+.full-width, .header-nav .full-width {
+	width: 100%;
+}
+
+.header-nav a.heldane {
+	font-size: 110%;
+}
+
+a.selected {
+	opacity: 1;
+}
+
+a.selected span {
+}
+
+.two-five { grid-column: 2 / 5; }
+
+
+.baseline-align {
+	align-self: end;
+}
+
+@media only screen and (max-width: 2000px) {
+
+	h2 {
+		font-size: 42px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+
+	.grid-four-col {
+		display: grid;
+		grid-template-columns: 22% 22% 22% 22%;
+    	column-gap: 4%;
+    	max-width: 90%;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	body {
+	  	font-size: 17px;
+	}
+
+	.grid-four-col {
+		max-width: 70%;
+	}
+
+	h2 {
+		font-size: 24px;
+		line-height: 130%;
+	}
+
+	.half-opacity {
+	 	opacity: 1;
+	}
+
+	.one-two, .two-four, .four-give {
+		grid-column: 1 / 5;
+	}
+
+	.logo-starboard {
+		width: 140px;
+	}
+
+	.logo-xero {
+		width: 60px;
+	}
+
+	.logo-wayward-riders {
+		width: 120px;
+	}
+
+	/* photo pages styles */
+
+	.one-two, .two-four, .four-five, .one-five {
+		grid-column: 1 / 5;
+	}
+
+	/* photo pages styles */
+
+}
+
+@media only screen and (max-width: 800px) {
+	body,  {
+		font-size: 15px;
+		line-height: 145%;
+	}
+
+	.bottom-padding-large {
+    	padding-bottom: 20%;
+	}
+
+	.bottom-padding-large-small-screen {
+		padding-bottom: 19%;
+	}
+
+    .block-title  { 
+    	padding-bottom: 6%;
+    }
+
+	.padding-medium, .padding-small {
+		padding: 6% 0;
+	}
+
+	.top-padding-medium, .top-padding-small {
+		padding-top: 5%;
+	}
+
+	.bottom-padding-medium {
+		padding-bottom: 5%;
+	}
+
+	.grid-four-col {
+		max-width: 88%;
+	}
+
+	.image {
+		padding-bottom: 6%;
+	}
+
+	h1.big-heldane {
+		font-size: 12vw;
+
+	}
+
+	.intro-block {
+		padding-bottom: 25%;
+	}
+}
+
+
+
+
+
