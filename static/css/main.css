@@ -12,17 +12,17 @@ body {
 
 @font-face {
   	font-family: 'sohne-book';
-  	src: url('../fonts/sohneweb-mager.woff2') format('woff2');
+  	src: url('/fonts/sohneweb-mager.woff2') format('woff2');
 }
 
 @font-face {
   	font-family: 'sohne-bold';
-  	src: url('../fonts/sohneweb-halbfett.woff2') format('woff2');
+  	src: url('/fonts/sohneweb-halbfett.woff2') format('woff2');
 }
 
 @font-face {
   	font-family: 'sohne-book-italic';
-  	src: url('../fonts/sohneweb-magerkursiv.woff2') format('woff2');
+  	src: url('/fonts/sohneweb-magerkursiv.woff2') format('woff2');
 }
 
 /* text styles */
