@@ -80,21 +80,17 @@ p:first-child {
     text-decoration: underline;
 }
 
+.u__mb--0 {
+    margin-bottom: 0 !important;
+}
+
+.u__mt--0 {
+    margin-top: 0 !important;
+}
+
 .smaller-text, .smaller-text > *, .photo-pages p.smaller-text {
 	font-size: 15px;
 }
-
-/*.work-text {
-	color: #fff;
-}
-
-.work-text a {
-	color: #ffffff;
-}
-
-.work-text p {
-	margin: 11px 0;
-}*/
 
 .work-text h3 {
 	margin: -7px 0px 0px 0px;
