@@ -42,6 +42,12 @@ h2 {
 	padding: 0;
  }
 
+ @media screen and (min-width: 1200px) {
+	h2 {
+	   font-size: 64px;
+	}
+}
+
 h3 {
  	font-family: sohne-bold;
  	font-weight: normal;
